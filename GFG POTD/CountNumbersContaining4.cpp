@@ -10,8 +10,8 @@
                                               where (can_take_any == 1 -> we can take any digits 
                                                      can_take_any == 0 -> we can take smaller digits)
     
-    T.C. -> O (n * 2 * 2 * 10) which is considerably less
-    S.C -> O (n * 2 * 2)
+    T.C. -> O ((cnt (n)) * 2 * 2 * 10) which is considerably less
+    S.C -> O (cnt (n) * 2 * 2), where cnt (n) = no. of digits in n
     
     Solution1 is very intuitive and simple to implement
     Solution2 is implemented below
