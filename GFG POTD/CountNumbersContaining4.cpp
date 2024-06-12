@@ -26,7 +26,7 @@ using ll = long long;
 class Solution {
   public:
     int countNumberswith4(int n) {
-        ll dp[n + 1][2][2];
+        ll dp[101][2][2];
         
         auto reset = [&] () {
             for (int i = 0; i <= n; i += 1) {
