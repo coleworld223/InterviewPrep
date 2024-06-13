@@ -1,6 +1,6 @@
 /*
     Hints:
-    This is a simple dyanamic problem just testing the basic fundamentals
+    This is a simple DP problem just testing the basic fundamentals
 */
 
 /*
