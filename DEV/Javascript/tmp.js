@@ -175,12 +175,12 @@ console.log ("anuj");
 // Also you can find methods in prototype of string object when created in a browser
 // Go through the MDN Docs and implement some of the methods
 
-let x = " anujanand-anujanand  "
-console.log (x)
-console.log (x.trim())
-console.log (x.substr (0, 5));
-console.log (x.slice(-8, 3));
-console.log (x.split('-'));
+// let x = " anujanand-anujanand  "
+// console.log (x)
+// console.log (x.trim())
+// console.log (x.substr (0, 5));
+// console.log (x.slice(-8, 3));
+// console.log (x.split('-'));
 
 
 
