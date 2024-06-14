@@ -184,6 +184,68 @@ console.log ("anuj");
 
 
 
+//***************************************MATHS******************************************************************************
+
+// console.log(Math.abs(-4));
+// console.log(Math.min (3, 3, 5, 6));
+// console.log(Math.max (2, 523, 545, 523));
+// console.log(Math.sqrt (4));
+// console.log(Math.pow (2, 4));
+
+
+// console.log(Math.random()); // gives [0, 1] random distribution
+
+// console.log (Math.floor (Math.random () * 10) + 1);
+// let mx = 20;
+// let mn = 10;
+// console.log (Math.floor (Math.random () * (mx - mn + 1) + 1) + mn); // random integer in (10, 20)
+
+
+
+//****************************************DATE-AND-TIME********************************************************************
+
+// let newDate = new Date();
+// let createdDate = new Date (2023, 0, 1);
+
+// console.log (newDate.toString());
+// console.log (newDate.toLocaleDateString());
+// console.log (createdDate.toString());
+// console.log (createdDate.toLocaleDateString());
+// console.log (newDate.getTime());
+// console.log (createdDate.getTime());
+
+// You can create a Date Object and see and test all of the functions that come with it
+
+// **********************************ARRAYS***********************************************************************************
+
+// const myArr = [0, 1, 2, 3, 4, 5];
+// console.log (myArr);
+// console.log (myArr.slice(0, 3));
+// console.log (myArr);
+// console.log (myArr.splice(0, 4));
+// console.log (myArr);
+
+// Practice all the suggested methods of array to get an idea
+
+// const arr = Array (0, 2, 3, 4);
+// console.log (arr);
+// const arr1 = [0, 1, 2, 3];
+// const arr2 = [4, 5, 6, 7];
+// // const arr3 = arr1.concat(arr2);
+// const arr3 = [...arr1, ...arr2];
+// console.log (arr3);
+// const arr5 = [0, 1, [2, [4, 5, [6, 6, 6]]]];
+// const arr6 = arr5.flat(Infinity);
+// console.log (arr5);
+// console.log (arr6);
+
+// console.log (Array.isArray(arr1));
+// console.log (Array.of(0, 1, 2));
+
+// **************************************OBJECTS*******************************************************************************
+
+
+
 
 
 
